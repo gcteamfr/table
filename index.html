@@ -10,7 +10,7 @@
       table,
       td,
       th {
-        border: 1px solid #adb5bd;
+        border: 1px solid #dee2e6;
       }
 
       table {
@@ -29,6 +29,11 @@
 
       #conseqScale {
         height: 35px;
+        font-weight: 600;
+      }
+
+      .numberScale {
+        font-weight: 300;
       }
 
       .probability {
@@ -38,8 +43,23 @@
 
       .probaTitle {
         font-size: 25px;
-        writing-mode: vertical-rl;
-        text-orientation: sideways;
+        writing-mode: vertical-lr;
+        text-orientation: sideways-right;
+        text-align: center;
+        transform: rotate(180deg);
+      }
+
+      .probaScale {
+        height: 30px;
+        width: 85px;
+        font-weight: 300;
+        text-align: center;
+      }
+
+      .numberProba {
+        height: 30px;
+        width: 45px;
+        font-weight: 300;
         text-align: center;
       }
 
@@ -63,7 +83,7 @@
 
       td.data {
         position: relative;
-        animation: pulse 2s infinite;
+        animation: pulse 1s infinite;
       }
 
       /* .pulse:before,
@@ -126,13 +146,13 @@
 
       @keyframes pulse {
         0% {
-          opacity: 0.8;
+          opacity: 0.5;
         }
         50% {
           opacity: 1;
         }
         100% {
-          opacity: 0.8;
+          opacity: 0.5;
         }
       }
     </style>
