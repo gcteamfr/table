@@ -34,7 +34,7 @@ const table =
 <td class="probability">Frequent (once a week)</td>
 <td class="probaTitle" rowspan="5">Probability</td>
 <td id="numProba" class="numberProba">5</td>
-<td id="51" class ="cell data"></td>
+<td id="51" class ="cell green"></td>
 <td id="52" class ="cell orange"></td>
 <td id="53" class ="cell red"></td>
 <td id="54" class ="cell red"></td>
@@ -43,8 +43,8 @@ const table =
 <tr>
 <td class="probability">Possible (once 6 months)</td>
 <td id="numProba" class="numberProba">4</td>
-<td id="41" class ="cell data"></td>
-<td id="42" class ="cell data"></td>
+<td id="41" class ="cell green"></td>
+<td id="42" class ="cell green"></td>
 <td id="43" class ="cell orange"></td>
 <td id="44" class ="cell red"></td>
 <td id="45" class ="cell red"></td>
@@ -52,8 +52,8 @@ const table =
 <tr>
 <td class="probability">Unusual (once 3 years)</td>
 <td id="numProba" class="numberProba">3</td>
-<td id="31" class ="cell data"></td>
-<td id="32" class ="cell data"></td>
+<td id="31" class ="cell green"></td>
+<td id="32" class ="cell green"></td>
 <td id="33" class ="cell orange"></td>
 <td id="34" class ="cell orange"></td>
 <td id="35" class ="cell red"></td>
@@ -61,20 +61,20 @@ const table =
 <tr>
 <td class="probability">Unlikely (once 10 years)</td>
 <td id="numProba" class="numberProba">2</td>
-<td id="21" class ="cell data"></td>
-<td id="22" class ="cell data"></td>
-<td id="23" class ="cell data"></td>
-<td id="24" class ="cell data"></td>
+<td id="21" class ="cell green"></td>
+<td id="22" class ="cell green"></td>
+<td id="23" class ="cell green"></td>
+<td id="24" class ="cell green"></td>
 <td id="25" class ="cell orange"></td>
 </tr>
 <tr>
 <td class="probability">Highly unlikely (once in career)</td>
 <td id="numProba" class="numberProba">1</td>
-<td id="11" class =" cell data"></td>
-<td id="12" class =" cell data"></td>
-<td id="13" class =" cell data"></td>
-<td id="14" class =" cell data"></td>
-<td id="15" class =" cell data"></td>
+<td id="11" class =" cell green"></td>
+<td id="12" class =" cell green"></td>
+<td id="13" class =" cell green"></td>
+<td id="14" class =" cell green"></td>
+<td id="15" class =" cell green"></td>
 </tr>
 </tbody>
 </table>`;
